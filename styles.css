@@ -1,18 +1,29 @@
 /* your code */
-table,td,th,tr{
-	border:1px solid black;
-	border-collapse:collapse;
+*{
+	margin:0;
+	padding:0;
+	box-size:border-box;
+}
+table{
+	border:1px solid #dbdbdb;
+	border-spacing: 0px;
+	border-radius:10px;
 }
 thead{
-	background:blue;
+	background:#468ae9;
 }
 tbody tr:nth-child(even){
-	background:aqua;
+	background:#dbdbdb;
 	
 }
 table{
-	border:1px solid black;
 	width:100%;
 	margin:auto;
-	border-radius:50px;
+	
+}
+th{
+	text-align:left;
+}
+table th, table td{
+	padding:6px;
 }
